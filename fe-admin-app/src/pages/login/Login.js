@@ -18,7 +18,6 @@ const Login = () => {
 
   const handleClick = (e) => {
     e.preventDefault();
-    console.log(credentials.username, credentials.password);
     dispatch({ type: "LOGIN_START" });
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
@@ -39,7 +38,6 @@ const Login = () => {
       .then((response) => response.json())
       .then((result) => {
         if (result.isAdmin) {
-          console.log("result:", result);
           dispatch({ type: "LOGIN_SUCCESS", payload: result });
           navigate("/");
         } else if (!result.isAdmin && result.success) {
