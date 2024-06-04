@@ -1,0 +1,47 @@
+.table-rt {
+  width: 100%;
+}
+.table-head-rt {
+  background-color: rgb(69, 165, 255);
+  position: sticky;
+  top: 0;
+}
+.cellWrapper-rt {
+  display: flex;
+  align-items: center;
+}
+.image-rt {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.btn-delete-rt {
+  color: red;
+  border: 1px dashed red;
+  border-radius: 4px;
+  background-color: rgb(255, 212, 212);
+}
+.btn-delete-rt:hover,
+.btn-delete-rt:active {
+  color: black;
+  border: 1px solid red;
+  border-radius: 4px;
+  background-color: rgb(255, 175, 175);
+}
+
+.btn-edit-rt {
+  color: rgb(0, 38, 255);
+  border: 1px dashed rgb(55, 0, 255);
+  border-radius: 4px;
+  background-color: rgb(101, 201, 255);
+}
+.btn-edit-rt:hover,
+.btn-edit-rt:active {
+  color: black;
+  border: 1px solid rgb(25, 0, 255);
+  border-radius: 4px;
+  background-color: rgb(63, 153, 255);
+}

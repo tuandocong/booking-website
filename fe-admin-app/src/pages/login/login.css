@@ -1,0 +1,80 @@
+.login {
+  padding-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.lInput {
+  width: 50%;
+  border: 1px solid rgb(0, 0, 128);
+  border-radius: 3px;
+  height: 30px;
+  padding: 7px 20px;
+}
+
+.lButton {
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px 0 50px 0;
+  background-color: #004a7e;
+}
+.lButton:hover,
+.lButton:active {
+  background-color: #0071c2;
+}
+
+.lButton:disabled {
+  background-color: #0071c28c;
+  cursor: not-allowed;
+}
+.login-header {
+  background-color: #004a7e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 30px;
+  color: white;
+  text-justify: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+.login-text {
+  text-align: center;
+  color: rgb(33, 33, 33);
+  font-size: 18px;
+  font-weight: 600;
+}
+.login-contain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.login-form {
+  text-align: center;
+  width: 50%;
+  margin: 50px 0;
+  border-radius: 8px;
+  box-shadow: -3px 0px 7px 3px rgb(197, 197, 197);
+}
+.login-form h1 {
+  color: #004a7e;
+  margin-top: 50px;
+}
+.msg-err {
+  color: red;
+}

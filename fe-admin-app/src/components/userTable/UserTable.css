@@ -1,0 +1,24 @@
+.ut-contain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: center;
+}
+.ut-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgb(0, 31, 82);
+  border-radius: 5px;
+  min-width: 60%;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: rgb(233, 255, 248);
+}
+.ut-title {
+  font-weight: 600;
+}
+.ut-data {
+  color: rgb(0, 51, 134);
+}

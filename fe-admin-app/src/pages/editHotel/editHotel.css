@@ -1,0 +1,71 @@
+.new-eh {
+  width: 100%;
+  display: flex;
+}
+
+.newContainer-eh {
+  flex: 6;
+}
+.top-eh,
+.bottom-eh {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+}
+.bottom-contain-eh {
+  display: flex;
+}
+.formInput-eh {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.bottom-contain-eh label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon-eh {
+  cursor: pointer;
+}
+
+.bottom-contain-eh input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.left-eh {
+  flex: 1;
+  padding: 0px 20px;
+}
+
+.right-eh {
+  flex: 1;
+  padding: 0px 20px;
+}
+.selectRooms-eh {
+  padding: 20px;
+  width: 70%;
+  text-align: left;
+}
+.selectRooms-eh select {
+  width: 100%;
+  padding: 10px;
+}
+.bottom-eh button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.bottom-eh button:hover,
+.bottom-eh button:active {
+  background-color: rgb(0, 85, 85);
+}

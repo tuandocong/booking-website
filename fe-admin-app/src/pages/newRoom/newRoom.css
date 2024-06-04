@@ -1,0 +1,81 @@
+.new-r {
+  width: 100%;
+  display: flex;
+}
+
+.newContainer-r {
+  flex: 6;
+}
+
+.top-r,
+.bottom-r {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+.bottom-contain-r {
+  display: flex;
+}
+
+.formInput-r {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.formInput-r label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon-r {
+  cursor: pointer;
+}
+
+.formInput-r input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.left-r {
+  flex: 1;
+  padding: 0px 20px;
+}
+
+.right-r {
+  flex: 1;
+  padding: 0px 20px;
+}
+
+.selectRooms-r {
+  padding: 20px;
+  width: 70%;
+  text-align: left;
+}
+.selectRooms-r select {
+  width: 100%;
+  padding: 10px;
+}
+
+.top-r button,
+.bottom-r button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.top-r button:hover,
+.top-r button:active {
+  background-color: rgb(0, 85, 85);
+}
+.bottom-r button:hover,
+.bottom-r button:active {
+  background-color: rgb(0, 85, 85);
+}

@@ -1,0 +1,45 @@
+.navbar {
+  height: 50px;
+  background-color: #004a7e;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnHome {
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+.btnHome:hover,
+.btnHome:active {
+  color: yellow;
+  text-decoration: none;
+}
+
+.navButton {
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: rgb(19, 0, 106);
+  font-weight: bold;
+  background-color: rgb(255, 240, 34);
+  border-radius: 3px;
+}
+.navButton:hover,
+.navButton:active {
+  color: red;
+}
+.userName {
+  color: white;
+  display: inline;
+}

@@ -1,0 +1,80 @@
+.new-h {
+  width: 100%;
+  display: flex;
+}
+
+.newContainer-h {
+  flex: 6;
+}
+
+.top-h,
+.bottom-h {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+}
+.top-h button,
+.bottom-h button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  background-color: teal;
+  /* background-color: red; */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.top-h button:hover,
+.top-h button:active {
+  background-color: rgb(0, 85, 85);
+}
+.bottom-h button:hover,
+.bottom-h button:active {
+  background-color: rgb(0, 85, 85);
+}
+
+.bottom-contain-h {
+  display: flex;
+}
+.formInput-h {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.formInput-h label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon-h {
+  cursor: pointer;
+}
+
+.formInput-h input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.left-h {
+  flex: 1;
+  padding: 0px 20px;
+}
+
+.right-h {
+  flex: 1;
+  padding: 0px 20px;
+}
+
+.selectRooms {
+  padding: 20px;
+  width: 70%;
+  text-align: left;
+}
+.selectRooms select {
+  width: 100%;
+  padding: 10px;
+}

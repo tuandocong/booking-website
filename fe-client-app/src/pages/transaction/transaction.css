@@ -1,0 +1,77 @@
+.table {
+  color: white;
+}
+.btn-action {
+  color: red;
+  border: 1px dashed red;
+  border-radius: 4px;
+  background-color: rgb(255, 212, 212);
+  /* &:hover,
+  &:active {
+    color: black;
+    border: 1px solid red;
+    border-radius: 4px;
+    background-color: rgb(255, 175, 175);
+  } */
+}
+.table-head {
+  background-color: rgb(69, 165, 255);
+  position: sticky;
+  top: 0;
+}
+
+.cellWrapper {
+  display: flex;
+  align-items: center;
+}
+/* .image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+} */
+
+.cellWrapper {
+  display: flex;
+  align-items: center;
+  /* 
+  .image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+  } */
+}
+
+.status {
+  padding: 5px;
+  border-radius: 5px;
+}
+.status.Checkout {
+  color: rgb(0, 72, 27);
+  background-color: rgba(133, 0, 159, 0.151);
+}
+.status.Checkin {
+  color: rgb(0, 72, 27);
+  background-color: rgb(75, 255, 126);
+}
+.status.Booked {
+  color: rgb(0, 72, 27);
+  background-color: rgba(255, 118, 118, 0.992);
+}
+.tcontain {
+  align-items: center;
+  padding: 20px 10%;
+}
+.tTitle {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 20px 0;
+}
+.headText {
+  color: white !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+}

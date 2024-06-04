@@ -1,0 +1,67 @@
+.register-contain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+.register-form {
+  width: 50%;
+  margin: 50px 0;
+  border-radius: 8px;
+  box-shadow: -3px 0px 7px 3px rgb(197, 197, 197);
+  align-items: center;
+}
+.register-form h1 {
+  text-align: center;
+  padding: 50px 0 10px 0;
+  color: #004a7e;
+}
+.register-form p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.register {
+  padding: 50px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 3px solid rgb(0, 0, 128); */
+}
+
+.lContainer {
+  min-width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* border: 1px solid red; */
+}
+
+.lInput {
+  height: 30px;
+  padding: 10px;
+}
+
+.lButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #004a7e;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.lButton:disabled {
+  background-color: #5d5d5d8c;
+  cursor: not-allowed;
+}
+.errText {
+  text-align: center;
+}
+.errText span {
+  padding: 10px 50px;
+  /* margin: 0 10%; */
+  border-radius: 3px;
+  background-color: rgb(239, 239, 239);
+}

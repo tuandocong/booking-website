@@ -1,0 +1,193 @@
+.reserve {
+  width: 80vw;
+  margin: 50px 0px;
+  position: relative;
+  padding: 20px;
+  background-color: rgb(223, 223, 223);
+  border-radius: 5px;
+  border: 3px solid #004a7e;
+}
+
+.rContainer {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rClose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  padding: 3px;
+  background-color: rgb(230, 230, 230);
+}
+
+.rItem {
+  flex: 6;
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.rInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.rTitle {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.rDesc {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.rMax {
+  font-size: 16px;
+}
+
+.rPrice {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.rSelectRooms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-size: 8px;
+  color: gray;
+}
+
+.room {
+  display: flex;
+  flex-direction: column;
+}
+
+.rButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #004a7e;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 20px;
+}
+.rButton:hover,
+.rButton:active {
+  background-color: #006cb9;
+}
+.rHeader {
+  font-size: 22px;
+  font-weight: bold;
+  color: #004a7e;
+  margin-bottom: 20px;
+}
+
+.formInput {
+  width: 90%;
+  margin-bottom: 20px;
+}
+.formInput label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  .icon {
+    cursor: pointer;
+  }
+}
+.formInput input {
+  width: 90%;
+  padding: 7px 10px;
+  border-radius: 5px;
+}
+
+.lsItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.lsItem > label {
+  font-size: 12px;
+}
+
+.lsItem > input {
+  height: 30px;
+  border: none;
+  padding: 5px;
+}
+.lsItem > span {
+  height: 30px;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+.contain-form {
+  flex: 6;
+  padding: 20px;
+}
+.contain-date {
+  flex: 6;
+  padding: 20px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 20px 10px;
+  color: rgb(0, 94, 23);
+}
+.payment label {
+  font-size: 18px;
+}
+.payment select {
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 16px;
+  /* background-color: rgb(237, 237, 237); */
+}
+.total-bill {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  /* border: 1px solid red; */
+  margin: 30px 0;
+}
+.rfilter-btn {
+  background-color: #0084e2;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.rfilter-btn:hover,
+.rfilter-btn:active {
+  background-color: #0071c2;
+}
+.checkbox-room:disabled {
+  opacity: 0.5; /* Làm mờ checkbox */
+  cursor: not-allowed; /* Thay đổi hình dạng con trỏ khi rê chuột vào */
+}
