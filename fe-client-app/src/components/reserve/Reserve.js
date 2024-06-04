@@ -118,7 +118,7 @@ const Reserve = ({ data, price, dates }) => {
       redirect: "follow",
     };
 
-    fetch("http://localhost:5000/transaction", requestOptions)
+    fetch(`${process.env.REACT_APP_SERVER_DOMAIN}/transaction`, requestOptions)
       .then((response) => response.json())
       .then((result) => console.log(result))
       .catch((error) => console.error(error));
@@ -220,7 +220,7 @@ const Reserve = ({ data, price, dates }) => {
                 <div className="room" key={roomNumber._id}>
                   <label>{roomNumber.number}</label>
                   <input
-                  className="checkbox-room"
+                    className="checkbox-room"
                     type="checkbox"
                     id={roomNumber.number}
                     p={item.price}
